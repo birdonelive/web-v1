@@ -1,0 +1,21 @@
+<script>
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return "";
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+  var source = getParameterByName("source");
+
+  if (source === "amtk") {
+    alert("You were redirected from Ampiontk.");
+  } else if (source === "mtc") {
+    alert("You were redirected from Monte Central.");
+  } else {
+    alert("You were redirected from an unknown source.");
+  }
+</script>

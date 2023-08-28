@@ -1,0 +1,55 @@
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+}
+  
+.products {
+  line-height: 10px;
+}
+  
+a {
+  color: blue;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .navbar a:hover:not(.current) {
+    background-color: #000;
+    color: white;
+  }
+}
+
+.current {
+  background-color: #fa0;
+  color: white;
+  margin: 0.5;
+}
+
+.text {
+  padding: 20px;
+}
+
+.right {
+    text-align: right;
+    float: right;
+}

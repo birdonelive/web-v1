@@ -9,7 +9,7 @@ body {
 }
   
 .products {
-  line-height: 10px;
+  line-height: normal;
 }
   
 a {

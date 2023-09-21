@@ -1,6 +1,6 @@
 /* Add GG Ampion Font */
 
-@font-face {font-family: ggampion; src: url(https://phuwatthepro.github.io/montetesting/gg_ampion-v1.ttf);}
+@font-face {font-family: ggampion; src: url(../gg_ampion-v1.ttf);}
 
 body {font-family: ggampion;}
 
@@ -61,7 +61,7 @@ a:active {color: blue;}
       z-index: -1;
       }
        body {
-      background-image: url('https://phuwatthepro.github.io/montetesting/AB2.png');
+      background-image: url('../AB2.png');
       background-size: cover;
       background-repeat: repeat-y;
       }

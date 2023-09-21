@@ -1,3 +1,5 @@
+<!--
+
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6971NP6T4P"></script>
   <script>
@@ -13,3 +15,7 @@
 
 1. Who Pro? - [See results](https://docs.google.com/forms/d/e/1FAIpQLSdFQHn2ThgxhUX3xLwgW33NaxrAMDJmyc_QM9QKEAH2hnY6Og/viewanalytics)
 2. Kidnapping Video Feedback - **Form closed**
+
+-->
+
+# This page is now closed.

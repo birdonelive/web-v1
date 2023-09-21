@@ -60,8 +60,8 @@ a:active {color: blue;}
       border-radius: 20px;
       z-index: -1;
       }
-       body {
-      background-image: url(ab2.png);
+      body {
+      background-image: url(/birdweb/montecentral/ab2.png);
       background-size: cover;
       background-repeat: repeat-y;
       }

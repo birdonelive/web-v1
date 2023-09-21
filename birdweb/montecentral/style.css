@@ -61,7 +61,7 @@ a:active {color: blue;}
       z-index: -1;
       }
        body {
-      background-image: url('ab2.png');
+      background-image: url(ab2.png);
       background-size: cover;
       background-repeat: repeat-y;
       }

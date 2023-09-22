@@ -11,6 +11,16 @@
       <p style="font-size:1.5em">Under construction. We apologize for the inconvenience.</p>
       <p style="font-size:1.5em">กำลังปรับปรุง ขออภัยในความไม่สะดวก</p>
     </center>
+    <br>
+    <div id="ftr"></div>
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(content => {
+          document.getElementById('ftr').innerHTML = content;
+        });
+    </script>
+
   </body>
   
 </html>

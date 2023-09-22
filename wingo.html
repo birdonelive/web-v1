@@ -28,3 +28,12 @@
   <a class="btn btn-secondary btn-lg" href="/" role="button">Go back to home page</a>
   <br><br><br>
 </center>
+<br>
+<div id="ftr"></div>
+<script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('ftr').innerHTML = content;
+            });
+</script>

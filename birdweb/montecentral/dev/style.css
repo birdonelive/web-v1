@@ -1,7 +1,7 @@
 /* Add GG Ampion Font */
 @font-face {
   font-family: ggampion;
-  src: url(/birdweb/montecentral/gg_ampion-v1.ttf);
+  src: url(../gg_ampion-v1.ttf);
 }
 
 body {
@@ -66,7 +66,7 @@ a {
 }
 
 body {
-  background-image: url(/birdweb/montecentral/ab2.png);
+  background-image: url(../ab2.png);
   background-size: cover;
   background-repeat: repeat-y;
 }

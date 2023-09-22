@@ -35,7 +35,7 @@
 <br>
 <div id="ftr"></div>
 <script>
-        fetch('footer.html')
+        fetch('/src/footer.html')
             .then(response => response.text())
             .then(content => {
                 document.getElementById('ftr').innerHTML = content;

@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<div id="nav"></div>
+<script>
+  fetch('/src/navbar.html')
+      .then(response => response.text())
+      .then(content => {
+          document.getElementById('nav').innerHTML = content;
+      });
+</script>
+
+<br>
+<center>
+    <h1>Test Page</h1>
+</center>
+
+<br>
+<div id="ftr"></div>
+<script>
+        fetch('/src/footer.html')
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('ftr').innerHTML = content;
+            });
+</script>

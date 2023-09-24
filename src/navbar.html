@@ -24,9 +24,11 @@
 </nav>
 
 <script>
-  const changeLanguageButton = document.getElementById('lang');
+  /* Language change function */
+  
+  const langButton = document.getElementById('lang');
 
-  changeLanguageButton.addEventListener('click', () => {
+  langButton.addEventListener('click', () => {
     const currentURL = window.location.href;
     const urlParts = currentURL.split('/');
     const thIndex = urlParts.indexOf('th');

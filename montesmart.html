@@ -5,23 +5,21 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">BirdOne</a>
-    </div>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="/">Home</a>
-      </li>
-     <li class="nav-item">
-        <a class="nav-link active" href="#">MonteSmart</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Bird Web (Coming Soon)</a>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="/th/montesmart"><i class="bi bi-globe2"></i></a></li>
-    </ul>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">BirdOne</a>
+      </div>
+      <div id="nav"></div>
+      <script>
+          fetch('/src/navbar.html')
+              .then(response => response.text())
+              .then(content => {
+                  document.getElementById('nav').innerHTML = content;
+              });
+      </script>
+  
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/th"><i class="bi bi-globe2"></i></a></li>
+      </ul>
   </div>
 </nav>
 

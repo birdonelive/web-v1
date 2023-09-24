@@ -16,7 +16,7 @@ a {
   color: blue;
 }
 
-.navbar {
+.navbar-old {
   background-color: #333;
   color: white;
   overflow: hidden;
@@ -27,7 +27,7 @@ a {
   width: 100%;
 }
 
-.navbar a {
+.navbar-old a {
   float: left;
   display: block;
   color: white;
@@ -36,8 +36,21 @@ a {
   text-decoration: none;
 }
 
+.navbar-new {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
 .headtext {
   font-size: small;
+}
+
+.name {
+  color: white;
 }
 
 @media (hover: hover) {

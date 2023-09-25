@@ -71,10 +71,11 @@ a {
 }
 
 .right {
-    text-align: right;
-    float: right;
+  text-align: right;
+  float: right;
 }
 
 .wingo {
   /* Wingo never dies! */
+  width: auto;
 }

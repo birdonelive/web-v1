@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<div w3-include-html="src/navbar_en.html"></div> 
+<script>
+  navbar();
+</script>
+
+<br><br>
+<center>
+    <h1>Test Page</h1>
+</center>
+
+<br>
+<div id="ftr"></div>
+<script>
+    fetch('/src/footer.html')
+        .then(response => response.text())
+        .then(content => {
+            document.getElementById('ftr').innerHTML = content;
+        });
+</script>

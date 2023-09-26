@@ -3,13 +3,25 @@
 <link rel="stylesheet" href="/style.css">
 <script src="/script.js"></script>
 
-<div class="navbar">
-  <a style="color:silver" href="#"><i>(oldstyle navbar)</i></a>
-  <a href="/">Home</a>
-  <a href="montesmart">MonteSmart</a>
-  <a class="current">BirdWeb</a>
-  <div class="right"><a href="/th"><b>A</b> | ก</a></div>
-</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">BirdOne</a>
+      </div>
+      <div id="nav"></div>
+      <script>
+          fetch('/src/navbar_en.html')
+              .then(response => response.text())
+              .then(content => {
+                  document.getElementById('nav').innerHTML = content;
+              });
+      </script>
+  
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="bi bi-slash-circle"></i></a></li>
+      </ul>
+  </div>
+</nav>
 
 <div class="text">
   <br><br><br>
@@ -17,8 +29,8 @@
   <b>Please note that this is a beta and may contain bugs. We apologize for the inconvenience.</b>
   <br>
   <h2>Select a Bird Web Service to continue.</h2>
-  <a class="btn btn-primary btn-lg" href="montecentral" role="button">Enter Bird Web <sub>(MonteCentral)</sub></a><br>
-  <button type="button" class="btn btn-secondary btn-lg" disabled>Enter Ampion.tk</button>
+  <a class="btn btn-primary btn-lg" href="montecentral" role="button">Enter Bird Web <sub>(MonteCentral)</sub></a><br><br>
+  <button type="button" class="btn btn-secondary btn-lg" disabled>Enter Ampion.tk <sub>(closed)</sub></button>
 </div>
 <br>
 <div id="ftr"></div>

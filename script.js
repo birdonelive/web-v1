@@ -5,7 +5,7 @@ document.head.appendChild(script);
 document.body.appendChild(script);
 
 // Navbar Template
-let html = `<link rel="stylesheet" href="style.css">
+let nben = `<link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 
 <header class="p-3 text-bg-dark">
@@ -28,6 +28,7 @@ let html = `<link rel="stylesheet" href="style.css">
   </div>
 </header>`;
 
+let html =  `${nben}`;
 document.getElementById("navbar").innerHTML = html;
 
 // Navbar Template (OLD)

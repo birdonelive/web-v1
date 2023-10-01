@@ -29,7 +29,7 @@ let nben = `<link rel="stylesheet" href="style.css">
 </header>`;
 
 let html =  `${nben}`;
-document.getElementById("navbar").innerHTML = html;
+
 
 // Navbar Template (OLD)
 function navbar(lang) {

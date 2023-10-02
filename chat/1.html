@@ -26,7 +26,7 @@
 
 <body>
 
-  <H1>Chat in 10 lines of JavaScript. Powered by PubNub</H1>
+  <H1>Bird Chat Beta</H1>
 
   <div class="flex-container">
 
@@ -36,6 +36,7 @@
   </div>
   <input id="input" placeholder="Type your message and press enter" />
 
+  <p>Powered by PubNub - Beta Version for Developers only</p>
   
   
 
@@ -45,7 +46,7 @@
   <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.7.2.0.min.js"></script>
   <script>var countTx = 0, countRx = 0, id = 'user_' + Math.random();
     (function () {
-      var pubnub = new PubNub({publishKey: 'demo', subscribeKey: 'demo', userId: id}); // Your PubNub keys here. Get them from https://dashboard.pubnub.com.
+      var pubnub = new PubNub({publishKey: 'pub-c-4fea4076-00a3-45a9-bcd6-b554b4f2f3b4', subscribeKey: 'sub-c-c9a20608-f27f-42ea-8b3f-b19d94096769', userId: id}); // Your PubNub keys here. Get them from https://dashboard.pubnub.com.
       var box = document.getElementById("outputDiv"), input = document.getElementById("input"), channel = '10chat';
       pubnub.subscribe({channels: [channel]}); // Subscribe to a channel.
       pubnub.addListener({

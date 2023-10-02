@@ -5,9 +5,9 @@ document.head.appendChild(script);
 document.body.appendChild(script);
 
 // Navbar Template
-const nben = document.querySelector(".nben")
-fetch("/src/nben.html")
-.then(res=>res.text())
-.then(data=>data{
-  nben.innerHTML=data
-})
+const template = document.createElement('template');
+template.innerHTML = `
+  <h1>Website test</h1>
+  <a href="/">Test link</a>
+`;
+document.body.appendChild(template.content);

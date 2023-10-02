@@ -10,4 +10,5 @@ template.innerHTML = `
   <h1>Website test</h1>
   <a href="/">Test link</a>
 `;
-document.body.appendChild(template.content);
+const top = document.getElementById('top')
+document.body.insertBefore(template.content, top);

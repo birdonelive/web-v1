@@ -1,0 +1,4 @@
+Errors List
+
+Error 1 - Network error for Bird Chat
+Error 2 - Invalid authorization for Bird Chat

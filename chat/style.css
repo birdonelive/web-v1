@@ -28,6 +28,10 @@
   }
 }
 
+html * {
+  margin: 2%
+}
+
 
 input {
   width: 100%;

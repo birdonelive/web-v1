@@ -29,8 +29,9 @@
 }
 
 html * {
-  font-family: 'Poppins';
+  margin: 2%
 }
+
 
 input {
   width: 100%;

@@ -7,6 +7,10 @@ body {
   font-size: 1.2em;
   margin: 0;
 }
+
+.main {
+  margin: 5%;
+}
   
 .products {
   line-height: normal;

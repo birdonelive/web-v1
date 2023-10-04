@@ -28,8 +28,9 @@
   }
 }
 
-html * {
-  margin: 2%
+
+body {
+  padding: 2%;
 }
 
 
